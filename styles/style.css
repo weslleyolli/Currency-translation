@@ -54,6 +54,12 @@ textarea:focus, input:focus {
     outline: 0;
 }
 
+.flags img {
+    height: 24px;
+    width: 24px;
+    border-radius: 99px;
+}
+
 
 .container {
     height: 692px;
@@ -112,6 +118,12 @@ textarea:focus, input:focus {
     border-radius: 3px;
 
     border: 1px solid var(--highlight);
+}
+
+.container-desired-currency-right-items img {
+    height: 24px;
+    width: 24px;
+    border-radius: 99px;
 }
 
 .container-real-currency-right-items {

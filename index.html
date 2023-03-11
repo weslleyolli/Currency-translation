@@ -24,9 +24,9 @@
                         <div>
                             $<input type="text" class="currency-choise" onblur="addValueInDisplay()">
                         </div>
-                        <div class="container-desired-currency-right-items">
-                            <img src="./assets/Usa.svg" alt="flag">
-                            <p>USD</p>
+                        <div class="container-desired-currency-right-items ">
+                            <img class="image-currency" src="./assets/Usa.svg" alt="flag">
+                            <p class="text-currency">USD</p>
                             <button id="buttom-currency">
                                 <img src="./assets/arrowDown.svg" alt="">
                             </button>
@@ -37,51 +37,35 @@
                     </div>
                     <div class="container-real-currency">
                         <div>
-                            R$<input readonly type="text" class="text-input" value="">
+                            R$<input readonly type="text" class="text-input" value="0.00">
                         </div>
                         <div class="container-real-currency-right-items">
                             <img src="./assets/Bandeira.svg" alt="flag">
                             <p>BRL</p>
-                            <button>
-                                <img src="./assets/arrowDown.svg" alt="">
-                            </button>
                         </div>
                     </div>
                 </div>
                 <div class="popover invisible">
-                    <button class="selected-currency">
+                    <button class="selected-currency usd">
                         <img src="./assets/Usa.svg" alt="">
                         <p>USD</p>
                     </button>
-                    <button class="selected-currency">
-                        <img src="./assets/Usa.svg" alt="">
-                        <p>USD</p>
+                    <button class="selected-currency eur" onclick="addValueInDisplay()" >
+                        <img src="./assets/euro.svg" alt=""   >
+                        <p>EUR</p>
                     </button>
-                    <button class="selected-currency">
-                        <img src="./assets/Usa.svg" alt="">
-                        <p>USD</p>
+                    <button class="selected-currency gbp" onclick="addValueInDisplay()">
+                        <img src="./assets/gbp.svg" alt="">
+                        <p id="text">GBP</p>
                     </button>
-                    <button class="selected-currency">
-                        <img src="./assets/Usa.svg" alt="">
-                        <p>USD</p>
+                    <button class="selected-currency flags che">
+                        <img src="./assets/che.png" alt="">
+                        <p>CHE</p>
                     </button>
-                    <button class="selected-currency">
-                        <img src="./assets/Usa.svg" alt="">
-                        <p>USD</p>
+                    <button class="selected-currency flags jpy">
+                        <img src="./assets/Jpy.png" alt="">
+                        <p>JPY</p>
                     </button>
-                    <button class="selected-currency">
-                        <img src="./assets/Usa.svg" alt="">
-                        <p>USD</p>
-                    </button>
-                    <button class="selected-currency">
-                        <img src="./assets/Usa.svg" alt="">
-                        <p>USD</p>
-                    </button>
-                    <button class="selected-currency">
-                        <img src="./assets/Usa.svg" alt="">
-                        <p>USD</p>
-                    </button>
-
                 </div>
             </header>
             <main>
