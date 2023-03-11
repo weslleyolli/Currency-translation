@@ -37,6 +37,7 @@ header {
 button {
     background-color: transparent;
     border-style: none;
+    cursor: pointer;
 }
 
 
@@ -74,7 +75,7 @@ button {
 
 .container-desired-currency input {
     height: 30px;
-    width: 162px;
+    width: 120px;
     border-style: none;
     padding-left: 10px;
     font-size: 16px;
@@ -97,14 +98,14 @@ button {
 .container-desired-currency-right-items {
     background-color: var(--surface-secondary);
     height: 55px;
-    width: 130px;
-    margin: 1px;
+    width: 133px;
     display: flex;
     padding-left: 16px;
     gap: 10px;
     align-items: center;
     border-radius: 3px;
-    z-index: -1;
+
+    border: 1px solid var(--highlight);
 }
 
 .container-real-currency-right-items {
@@ -114,6 +115,8 @@ button {
     padding-left: 16px;
     gap: 10px;
     align-items: center;
+
+
 }
 
 .invisible {
