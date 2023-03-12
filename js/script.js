@@ -35,6 +35,7 @@ usd.addEventListener('click', (e) => {
         valueDisplay = currencyChoise.value * 5.22
         textArea.value = `${valueDisplay.toFixed(2)}`
     }
+    popover.classList.add('invisible')
 })
 
 euro.addEventListener('click', (e) => {

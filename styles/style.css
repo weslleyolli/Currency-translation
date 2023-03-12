@@ -109,15 +109,23 @@ textarea:focus, input:focus {
 
 .container-desired-currency-right-items {
     background-color: var(--surface-secondary);
-    height: 55px;
+    height: 53px;
     width: 133px;
     display: flex;
     padding-left: 16px;
     gap: 10px;
     align-items: center;
-    border-radius: 3px;
+    border-radius: 0 0.4rem 0.4rem 0;
+    position: relative;
+}
 
-    border: 1px solid var(--highlight);
+.container-desired-currency-right-items::before {
+    content: '';
+    height: 1.5rem;
+    width: 0.1rem;
+    background-color: var(--graphic-element);
+    position: absolute;
+    left: 0;
 }
 
 .container-desired-currency-right-items img {
@@ -180,4 +188,18 @@ textarea:focus, input:focus {
 .popover::-webkit-scrollbar-thumb {
     background-color: #94A3B8;    /* color of the scroll thumb */
     border-radius: 20px;       /* roundness of the scroll thumb */  
+}
+
+
+@media (max-width: 48rem) {
+    main {
+        width: 320px;
+        padding: 1.6rem;
+        gap: 1.6rem;
+    }
+
+    .container-boxs-coversion {
+        flex-direction: column;
+        gap: .8rem;
+    }
 }
