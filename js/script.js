@@ -45,6 +45,7 @@ euro.addEventListener('click', (e) => {
         valueDisplay = currencyChoise.value * 5.55
         textArea.value = `${valueDisplay.toFixed(2)}`
     }
+    popover.classList.add('invisible')
 })
 
 gbp.addEventListener('click', (e) => {
@@ -55,6 +56,7 @@ gbp.addEventListener('click', (e) => {
         valueDisplay = currencyChoise.value * 6.28
         textArea.value = `${valueDisplay.toFixed(2)}`
     }
+    popover.classList.add('invisible')
 })
 
 che.addEventListener('click', (e) => {
@@ -65,6 +67,7 @@ che.addEventListener('click', (e) => {
         valueDisplay = currencyChoise.value * 5.66
         textArea.value = `${valueDisplay.toFixed(2)}`
     }
+    popover.classList.add('invisible')
 })
 
 jpy.addEventListener('click', (e) => {
@@ -75,4 +78,5 @@ jpy.addEventListener('click', (e) => {
         valueDisplay = currencyChoise.value * 0.032
         textArea.value = `${valueDisplay.toFixed(2)}`
     }
+    popover.classList.add('invisible')
 })
