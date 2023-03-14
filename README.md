@@ -21,7 +21,7 @@ This project was developed using the following technologies:
 - [Grid](https://www.origamid.com/projetos/css-grid-layout-guia-completo/)
 - [Flex](https://origamid.com/projetos/flexbox-guia-completo/)
 - [Figma](https://www.figma.com/)
-- [PhosporIcons](https://phosphoricons.com/)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 
 
