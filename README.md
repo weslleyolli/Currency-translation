@@ -1,8 +1,8 @@
 <h1 align="center">Currency translate</h1>
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=Taught%20by&message=Rocketseat&color=white&labelColor=8257E5" alt="Taught by Rocketseat">
-  <img src="https://img.shields.io/github/forks/weslleyolli/nlw-setup-ignite?label=forks&message=MIT&color=white&labelColor=8257E5" alt="Forks">
-  <img src="https://img.shields.io/github/stars/weslleyolli/nlw-setup-ignite?label=stars&message=MIT&color=white&labelColor=8257E5" alt="Stars">
+  <img src="https://img.shields.io/github/forks/weslleyolli/currency-translation?label=forks&message=MIT&color=white&labelColor=8257E5" alt="Forks">
+  <img src="https://img.shields.io/github/stars/weslleyolli/currency-translation?label=stars&message=MIT&color=white&labelColor=8257E5" alt="Stars">
 </p>
 <p align="center">
     <img src="./.github/preview.png" alt="Preview">
